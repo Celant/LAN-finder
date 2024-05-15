@@ -1,0 +1,10 @@
+{
+    "include": ["env.d.ts", "./resources/js/**/*", "./resources/js/**/*.vue"],
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./resources/js/*"],
+            "ziggy": ["./node_modules/@types/ziggy-js"],
+        }
+    },
+}
