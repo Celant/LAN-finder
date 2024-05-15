@@ -73,8 +73,7 @@ const geoJsonOptions = {
 };
 const geoJsonStyler = (feature) => {
     switch (feature.properties.type) {
-        case 'self': return {color: "#ff0000", fillOpacity: 1};
-        default: return {color: "#00ff00", fillOpacity: 1}
+        default: return {color: "#ff0000", fillOpacity: 1}
     }
 };
 
